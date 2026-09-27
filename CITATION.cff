@@ -1,0 +1,62 @@
+cff-version: 1.2.0
+message: If you use this code, please cite the paper in preferred-citation.
+type: software
+title: 'MR-UFP: code for "Enhancing urban flow prediction via mutual reinforcement with multi-scale regional information"'
+authors:
+- family-names: Zhang
+  given-names: Xu
+- family-names: Cao
+  given-names: Mengxin
+- family-names: Gong
+  given-names: Yongshun
+- family-names: Wu
+  given-names: Xiaoming
+- family-names: Dong
+  given-names: Xiangjun
+- family-names: Guo
+  given-names: Ying
+- family-names: Zhao
+  given-names: Long
+- family-names: Zhang
+  given-names: Chengqi
+repository-code: https://github.com/CodeZx6/MR-UPF
+url: https://codezx6.github.io/papers/mr-ufp.html
+abstract: MR-UFP predicts the inflow and outflow of city grid regions, even with limited training data, by pre-training encoders
+  with spatial-temporal masking and contrastive learning and training flow prediction jointly with a multi-scale region-classification
+  task. On full TaxiBJ and BikeNYC it beats all 13 baselines (RMSE 14.32 and 4.45).
+keywords:
+- urban flow prediction
+- mutual reinforcement
+- multi-scale region information
+- spatial–temporal systems
+- spatial-temporal random masking
+- contrastive pre-training
+- multi-scale region classification
+- intelligent transportation systems
+preferred-citation:
+  type: article
+  title: Enhancing urban flow prediction via mutual reinforcement with multi-scale regional information
+  authors:
+  - family-names: Zhang
+    given-names: Xu
+  - family-names: Cao
+    given-names: Mengxin
+  - family-names: Gong
+    given-names: Yongshun
+  - family-names: Wu
+    given-names: Xiaoming
+  - family-names: Dong
+    given-names: Xiangjun
+  - family-names: Guo
+    given-names: Ying
+  - family-names: Zhao
+    given-names: Long
+  - family-names: Zhang
+    given-names: Chengqi
+  year: 2025
+  doi: 10.1016/j.neunet.2024.106900
+  url: https://doi.org/10.1016/j.neunet.2024.106900
+  journal: Neural Networks
+  volume: '182'
+  start: '106900'
+license: MIT
